@@ -2,6 +2,8 @@
 Provides WebDAV access via SSL. You need to prepare your own password
 file and provide your own certificate/key.
 
+This repository has been originally forked from https://github.com/groob/docker-webdav.
+
 ## Create Password File
 
     htpasswd -c htpasswd username
