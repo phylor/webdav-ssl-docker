@@ -21,5 +21,4 @@ connection. They need to be in a directory and called `web.crt` and
 
 ## Run Container
 
-    docker run --name webdav-ssl -v /path/to/htpasswd:/htpasswd -v /path/to/certs:/certs
--p 10000:443 phylor/webdav-ssl
+    docker run --name webdav-ssl -v /path/to/htpasswd:/htpasswd -v /path/to/certs:/certs -p 10000:443 phylor/webdav-ssl
